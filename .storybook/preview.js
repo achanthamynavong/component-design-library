@@ -1,0 +1,25 @@
+import React from 'react';
+
+import { GlobalStyle } from '../src/shared/global';
+
+// Global decorator to apply the styles to all stories
+// <> React fragment to avoid adding an unnecessary extra HTML tag to our output.
+export const decorators = [
+  (Story) => (
+    <>
+      <GlobalStyle />
+      <Story />
+    </>
+  )
+];
+
+export const parameters = {
+  actions: { argTypesRegex: "^on[A-Z].*" },
+  // Storybook a11y addon configuration
+  a11y: {
+    // the target DOM element
+    element: '#root',
+    // sets the execution mode for the addon
+    manual: false,
+  },
+}
