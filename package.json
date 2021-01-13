@@ -61,7 +61,6 @@
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.1.11",
     "auto": "^10.6.0",
-    "babel-loader": "^8.1.0",
     "chromatic": "^5.5.0",
     "cross-env": "^7.0.3",
     "prettier": "^2.2.1"
