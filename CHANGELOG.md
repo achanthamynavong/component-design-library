@@ -1,3 +1,15 @@
+# v0.2.0 (Thu Jan 14 2021)
+
+#### 🚀 Enhancement
+
+- Create avatar list component [#7](https://github.com/achanthamynavong/component-design-library/pull/7) ([@achanthamynavong](https://github.com/achanthamynavong))
+
+#### Authors: 1
+
+- Adam ([@achanthamynavong](https://github.com/achanthamynavong))
+
+---
+
 # v0.1.1 (Thu Jan 14 2021)
 
 #### 🐛 Bug Fix
