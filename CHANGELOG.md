@@ -2,9 +2,21 @@
 
 #### 🐛 Bug Fix
 
+- restore [#6](https://github.com/achanthamynavong/component-design-library/pull/6) ([@achanthamynavong](https://github.com/achanthamynavong))
+- updating workflow [#5](https://github.com/achanthamynavong/component-design-library/pull/5) ([@achanthamynavong](https://github.com/achanthamynavong))
+- color change deployment with GitHub action [#3](https://github.com/achanthamynavong/component-design-library/pull/3) ([@achanthamynavong](https://github.com/achanthamynavong))
+- make button pop [#1](https://github.com/achanthamynavong/component-design-library/pull/1) ([@achanthamynavong](https://github.com/achanthamynavong))
+
 #### ⚠️ Pushed to `main`
 
 - Auto release with Github Actions ([@achanthamynavong](https://github.com/achanthamynavong))
+- automate releases with Github Actions ([@achanthamynavong](https://github.com/achanthamynavong))
+- update package.json ([@achanthamynavong](https://github.com/achanthamynavong))
+- secret ([@achanthamynavong](https://github.com/achanthamynavong))
+- chromatic workflow ([@achanthamynavong](https://github.com/achanthamynavong))
+- Storybook deployment with GitHub action ([@achanthamynavong](https://github.com/achanthamynavong))
+- Base ([@achanthamynavong](https://github.com/achanthamynavong))
+- Initial commit ([@achanthamynavong](https://github.com/achanthamynavong))
 
 #### Authors: 1
 
