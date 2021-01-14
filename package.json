@@ -1,10 +1,10 @@
 {
-  "name": "component-library",
+  "name": "component-design-library",
   "version": "0.1.0",
   "private": false,
   "description": "Component Design Library",
   "main": "dist/index.js",
-  "repository": "https://github.com/achanthamynavong/component-library.git",
+  "repository": "https://github.com/achanthamynavong/component-design-library.git",
   "author": "Adam Chanthamynavong <adam.chanthamynavong@gmail.com>",
   "license": "MIT",
   "dependencies": {
