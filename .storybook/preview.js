@@ -1,25 +1,29 @@
 import React from 'react';
+import { loadFontsForStorybook } from '../src/utils/index';
 
-import { GlobalStyle } from '../src/shared/global';
-
-// Global decorator to apply the styles to all stories
-// <> React fragment to avoid adding an unnecessary extra HTML tag to our output.
-export const decorators = [
-  (Story) => (
-    <>
-      <GlobalStyle />
-      <Story />
-    </>
-  )
-];
+import { GlobalStyle } from '../src/components/shared/global';
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
-  // Storybook a11y addon configuration
-  a11y: {
-    // the target DOM element
-    element: '#root',
-    // sets the execution mode for the addon
-    manual: false,
+  // automatically create action args for all props that start with "on"
+  actions: { argTypesRegex: '^on.*' },
+  dependencies: {
+    // display only dependencies/dependents that have a story in storybook
+    // by default this is false
+    withStoriesOnly: true,
+
+    // completely hide a dependency/dependents block if it has no elements
+    // by default this is false
+    hideEmpty: true,
   },
-}
+};
+
+const withGlobalStyle = (storyFn) => (
+  <>
+    <GlobalStyle />
+    {storyFn()}
+  </>
+);
+
+export const decorators = [withGlobalStyle];
+
+loadFontsForStorybook();

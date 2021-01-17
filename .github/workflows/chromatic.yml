@@ -13,13 +13,19 @@ jobs:
     # Job steps
     steps:
       - uses: actions/checkout@v1
-      - run: yarn
-      - run: yarn test # adds the test command
-      # 👇 Adds Chromatic as a step in the workflow
+      - run: |
+          yarn
+      - run: |
+          yarn test
+      - run: |
+          yarn build
+      - run: |
+          yarn build-storybook
       - uses: chromaui/action@v1
         # Chromatic GitHub Action options
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           # 👇 Chromatic projectToken, refer to the manage page to obtain it.
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          storybookBuildDir: storybook-static
 
