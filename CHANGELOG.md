@@ -1,3 +1,15 @@
+# v0.2.1 (Sun Jan 17 2021)
+
+#### ⚠️ Pushed to `main`
+
+- Adapting Storybook Design System ([@achanthamynavong](https://github.com/achanthamynavong))
+
+#### Authors: 1
+
+- Adam ([@achanthamynavong](https://github.com/achanthamynavong))
+
+---
+
 # v0.2.0 (Thu Jan 14 2021)
 
 #### 🚀 Enhancement
